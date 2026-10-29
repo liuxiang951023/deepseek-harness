@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/prototype-studio-bundle/README.md
+/:
+  en: 115a1b6c22e98c3c
+  zh: ea879aecbf19f439
+/deepseek-ai-dsh-experimental-prototype-studio-bundle:
+  en: b714c69c3c8d95c4
+  zh: 09641daba37bfa9b
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/summary:
+  en: 7a5f03e5d1e07250
+  zh: 40a46ca18fbf0f54
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/table-of-contents:
+  en: 4c42347e02106f3d
+  zh: 1bcef61a48a746b5
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/use-this-bundle:
+  en: 56e63f6da11753f1
+  zh: aa03395624634f56
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/understand-the-implementation:
+  en: 01ad92982cababc5
+  zh: 92c70f72076dff31
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/further-exploration:
+  en: 484a5e0eda7b687a
+  zh: 0873fead49f92c02
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/model-experience/bundled-command-and-tool:
+  en: b358c25869058db7
+  zh: 3070655e1266464f
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/model-experience/bundled-command-and-tool/what-the-model-sees:
+  en: 3e62e2994375d89f
+  zh: d26c018782636914
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/model-experience/bundled-command-and-tool/token-effect:
+  en: 9bf4ff38fd67a347
+  zh: ece8ca3e6db1b2a8
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/model-experience/bundled-command-and-tool/kv-cache-effect:
+  en: 1d9890f3ef253bba
+  zh: 73c5dda2cb12d0b7
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/known-limitations-and-deferred-work:
+  en: c0b23a324a2ad01e
+  zh: 1d0b44f7663693d9
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/known-limitations-and-deferred-work/dev-note:
+  en: 506ccf837d0cc053
+  zh: c6d02c9a86b0686b
+/deepseek-ai-dsh-experimental-prototype-studio-bundle/known-limitations-and-deferred-work/dev-note/future-in-app-prototype-preview:
+  en: 98e2160abfb72907
+  zh: 29c237dda2cc8192

@@ -1,0 +1,11 @@
+# Prototype Studio: the `/prototype` command that submits a conversation
+# request with its PRD and screenshot attachments, plus the model-facing
+# brief tool it asks the agent to call. Both entries stay off until the person
+# switches the bundle on from the Plugins page.
+- insert:
+    - id: command-prototype-studio
+      name: '@deepseek-ai/dsh-command-prototype-studio'
+    - id: tool-prototype-studio
+      name: '@deepseek-ai/dsh-tool-prototype-studio'
+      config:
+        maxRequirementsLength: 4000

@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/tool-prototype-studio/README.md
+/:
+  en: 73a96ae55635aff9
+  zh: 9ce2f4894ef8b0e4
+/deepseek-ai-dsh-tool-prototype-studio:
+  en: f27d479b5d9c2211
+  zh: 321e1e46277785fd
+/deepseek-ai-dsh-tool-prototype-studio/summary:
+  en: 3cb3770cccfd1815
+  zh: 40c1d919b58561e1
+/deepseek-ai-dsh-tool-prototype-studio/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 9f0336825ccdaacd
+/deepseek-ai-dsh-tool-prototype-studio/use-this-package:
+  en: f257a81ec7a1855d
+  zh: 9447b73084ee6a0d
+/deepseek-ai-dsh-tool-prototype-studio/use-this-package/what-the-audit-checks:
+  en: f76c1f8cb6c768f4
+  zh: 170825f2e1109c2d
+/deepseek-ai-dsh-tool-prototype-studio/use-this-package/why-the-tools-do-not-write-files:
+  en: dc27b6c7275058fe
+  zh: 29aa007e78df8bbb
+/deepseek-ai-dsh-tool-prototype-studio/understand-the-implementation:
+  en: e0bb81370c07900c
+  zh: d9333f064d034a3d
+/deepseek-ai-dsh-tool-prototype-studio/further-exploration:
+  en: 4946c021ccda7da2
+  zh: 88d5592687ace491
+/deepseek-ai-dsh-tool-prototype-studio/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-tool-prototype-studio/model-experience/tool-definitions-and-results:
+  en: 9282f588d1e9a9c6
+  zh: 3c865fc579ec2f4c
+/deepseek-ai-dsh-tool-prototype-studio/model-experience/tool-definitions-and-results/what-the-model-sees:
+  en: e26a4981c4510b00
+  zh: 0ef28ad059e0cd17
+/deepseek-ai-dsh-tool-prototype-studio/model-experience/tool-definitions-and-results/what-the-model-sees/prototype-studio-intent-section:
+  en: f5a6ccb4b09bcb71
+  zh: 97662f13409a1187
+/deepseek-ai-dsh-tool-prototype-studio/model-experience/tool-definitions-and-results/token-effect:
+  en: 8006a6a6e5cabd3c
+  zh: ba41428ad8df7094
+/deepseek-ai-dsh-tool-prototype-studio/model-experience/tool-definitions-and-results/kv-cache-effect:
+  en: 2fe9840f2cc9c669
+  zh: a3d032bcd3b1aaaf
+/deepseek-ai-dsh-tool-prototype-studio/known-limitations-and-deferred-work:
+  en: 05c0cccc554760eb
+  zh: 65d3234c41ad5581
+/deepseek-ai-dsh-tool-prototype-studio/known-limitations-and-deferred-work/dev-note:
+  en: 506ccf837d0cc053
+  zh: c6d02c9a86b0686b
+/deepseek-ai-dsh-tool-prototype-studio/known-limitations-and-deferred-work/dev-note/future-rendered-verification:
+  en: d57039bd8d1ef8ef
+  zh: bb8a56a558f3db15

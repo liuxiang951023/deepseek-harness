@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Studio de prototypes",
+    "description": "Une fois activé, l'agent reconnaît seul les demandes de prototype : joignez le PRD et des captures du système, décrivez les exigences (avec l'adresse du back-office et ses identifiants s'il faut reproduire un système réel), il étudie les pages puis génère un prototype interactif haute fidélité en un seul fichier téléchargeable.",
+    "detail": "docs/DETAIL.md"
+  }
+}
