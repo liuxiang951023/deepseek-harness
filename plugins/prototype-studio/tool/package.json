@@ -1,0 +1,68 @@
+{
+  "name": "@liuxiang951023/dsh-tool-prototype-studio",
+  "description": "Frame and verify a high-fidelity interactive prototype task built from a conversation, its PRD attachments, and system screenshots",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxiang951023/deepseek-harness.git",
+    "directory": "plugins/prototype-studio/tool"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "locale/*.json",
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.6-alpha.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.6-alpha.1",
+    "@deepseek-ai/dsh-agent": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-fs": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-session": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-system-prompt": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-tools": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-working-directory": "^0.2.2-alpha.2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-working-directory": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.6-alpha.1",
+    "@deepseek-ai/dsh-agent": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-agent-loop-testkit": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-fs": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-fs-local": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-session": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-system-prompt": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-tool-testkit": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-tools": "^0.2.2-alpha.2",
+    "@deepseek-ai/dsh-working-directory": "^0.2.2-alpha.2",
+    "tsdown": "^0.22.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc && tsdown",
+    "prepare": "pnpm install --ignore-scripts && pnpm build",
+    "test": "vitest run"
+  }
+}

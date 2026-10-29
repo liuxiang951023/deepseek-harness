@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Estudio de prototipos",
+    "description": "Al activarlo, el agente reconoce las peticiones de prototipo por sí solo: adjunta el PRD y capturas del sistema, describe los requisitos (con la dirección del sistema y su acceso si debe reproducir uno real) y estudia las páginas antes de crear un prototipo interactivo de alta fidelidad en un solo archivo descargable.",
+    "detail": "docs/DETAIL.md"
+  }
+}

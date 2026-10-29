@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Prototype Studio",
+    "description": "Switch it on and the agent recognizes prototype requests on its own: attach a PRD document and system screenshots, describe the request (add the backend address and login when it must mirror a live system), and it studies the real pages before building a single-file high-fidelity interactive prototype you can download.",
+    "detail": "docs/DETAIL.md"
+  }
+}

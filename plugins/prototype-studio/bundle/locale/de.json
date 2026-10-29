@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Prototyp-Studio",
+    "description": "Nach dem Aktivieren erkennt der Agent Prototyp-Anfragen selbst: PRD-Dokument und System-Screenshots anhängen, die Anforderungen beschreiben (bei Bedarf mit Admin-Adresse und Zugangsdaten), und er prüft die echten Seiten, bevor er einen herunterladbaren, hochwertigen interaktiven Prototyp in einer Datei erzeugt.",
+    "detail": "docs/DETAIL.md"
+  }
+}

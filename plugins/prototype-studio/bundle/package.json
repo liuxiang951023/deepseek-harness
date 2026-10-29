@@ -1,0 +1,36 @@
+{
+  "name": "@liuxiang951023/dsh-prototype-studio-bundle",
+  "description": "Prototype Studio: turn a backend URL, a PRD document, and a written requirement into a high-fidelity interactive prototype.",
+  "version": "0.1.0",
+  "icon": "./icon.svg",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxiang951023/deepseek-harness.git",
+    "directory": "plugins/prototype-studio/bundle"
+  },
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "icon.svg",
+    "locale/*.json",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@liuxiang951023/dsh-command-prototype-studio": "link:../command",
+    "@liuxiang951023/dsh-tool-prototype-studio": "link:../tool"
+  }
+}
