@@ -1,7 +1,0 @@
-{
-  "meta": {
-    "title": "Estúdio de protótipos",
-    "description": "Ao ativar, o agente reconhece sozinho os pedidos de protótipo: anexe o PRD e capturas do sistema, descreva os requisitos (com o endereço do sistema e o acesso se precisar reproduzir um sistema real) e ele estuda as páginas antes de gerar um protótipo interativo de alta fidelidade em arquivo único para download.",
-    "detail": "docs/DETAIL.md"
-  }
-}
